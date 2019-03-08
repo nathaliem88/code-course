@@ -1,0 +1,47 @@
+body{
+  background-color:teal;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin-top:100px;
+}
+h1{
+  font-weight: lighter;
+  font-size:40px;
+  letter-spacing:3px;
+  margin-bottom: 2px;
+}
+h2{
+  font-weight:normal;
+  font-size:25px;
+  letter-spacing:2px;
+  margin-bottom: 10px;
+}
+
+.inputSection {
+  margin:2px 0px 6px 0;
+  width:50px;
+}
+
+.inputs {
+  width: inherit;
+  display:flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top:15px;
+}
+
+.AddOption {
+  margin-top: 10px;
+}
+
+.GoOption {
+  margin-top: 50px;
+}
+button  {
+  background-color: yellow;
+}
