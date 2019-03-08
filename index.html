@@ -9,12 +9,24 @@
       <h1>Välkommen till Maria tennis</h1>
       <i><h2>Utomhusbanor på Mariastaden</h2></i>
       <img src="\\ITSEELM-NT0002\NANIL4$\Document\My Pictures\mariastadentennis.jpg" alt="fun" width="300" height="150">
-      <div class="inputs">
-          <div class="inputSection">
+      <div class="inputsection">
+          <div class="inputs">
               <input placeholder="skrivnågot"></input>
           </div>
           <button class="AddOption">Lägg till</button>
       </div>
-      <button class="GoOption">Go!</button>
-  </body>
+      <div class="resultSection"></div>
+      <button>Go!</button>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $(function(){
+    $('.resultSection').hide()
+    var add_option = function() {
+      $('.inputs').append('<input></input>')
+    }
+    $('.AddOption').click(add_option)
+  })
+</script>
+</body>
 </html>
